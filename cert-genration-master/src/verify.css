@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{        
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.main{
+    background-color:white;   /*#668E45; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.up-text {
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn {
+    /* border: solid black 1px; */
+    font-size: 15px;
+    color: white;
+    background-color: #668F45;
+    padding: 2% 7%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+    background-color: #668E45;
+    color: white;
+}
+.btn:active {
+    background-color: #4b4b4b;
+}
+
+.input{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.pop-up {
+    margin: 40px;
+}
+
+.sub {
+    text-align: left;
+    /* justify-content: center;
+    align-items: center;
+    margin: auto; */
+    width: 85%;
+}
+
+.pop-up_2 {
+    background-color: red;
+    z-index: 1;
+    /* position: fixed; */
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* transform: translateX(50%); */
+}

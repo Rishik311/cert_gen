@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.cert-div {
+    width: 880px;
+    height: 600px;
+    background-image: url('./background.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+    text-align: end;
+}
+
+.top-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 20px;
+}
+
+.scan-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-code {
+    width: 80px;
+}
+
+.qr-text {
+    color: blue;
+}
+
+.text-area {
+    text-align: right;
+}
+
+.cert-text {
+    font-size: 50px;
+    font-weight: 800;
+    margin-block: 0px;
+}
+
+.desc-text {
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.cert-name {
+    font-size: 40px;
+    color: darkred;
+    margin: 0px;
+}
+
+.event-abt {
+    margin-top: 40px;
+}
+
+.org-abt {
+    margin-top: 0px;
+    margin-left: 400px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.org-logo {
+    width: 80px;
+}
+
+.org-text {
+    margin-top: 20px;
+    font-size: 18px;
+}
